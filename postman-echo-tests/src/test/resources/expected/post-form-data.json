@@ -1,0 +1,23 @@
+{
+  "args": {},
+  "data": "",
+  "files": {},
+  "form": {
+    "foo2": "bar2",
+    "foo1": "bar1"
+  },
+  "headers": {
+    "host": "postman-echo.com",
+    "accept-encoding": "gzip, br",
+    "user-agent": "lessons-16-tests/1.0",
+    "accept": "application/json",
+    "x-forwarded-proto": "https",
+    "content-type": "application/x-www-form-urlencoded",
+    "content-length": "19"
+  },
+  "json": {
+    "foo2": "bar2",
+    "foo1": "bar1"
+  },
+  "url": "https://postman-echo.com/post"
+}

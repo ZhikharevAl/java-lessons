@@ -1,0 +1,17 @@
+{
+  "args": {},
+  "data": "This is expected to be sent back as part of response body.",
+  "files": {},
+  "form": {},
+  "headers": {
+    "host": "postman-echo.com",
+    "accept-encoding": "gzip, br",
+    "user-agent": "lessons-16-tests/1.0",
+    "accept": "application/json",
+    "x-forwarded-proto": "https",
+    "content-type": "text/plain",
+    "content-length": "58"
+  },
+  "json": null,
+  "url": "https://postman-echo.com/put"
+}

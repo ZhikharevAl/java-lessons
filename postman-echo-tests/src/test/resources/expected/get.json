@@ -1,0 +1,14 @@
+{
+  "args": {
+    "foo2": "bar2",
+    "foo1": "bar1"
+  },
+  "headers": {
+    "host": "postman-echo.com",
+    "accept-encoding": "gzip, br",
+    "user-agent": "lessons-16-tests/1.0",
+    "accept": "application/json",
+    "x-forwarded-proto": "https"
+  },
+  "url": "https://postman-echo.com/get?foo1=bar1&foo2=bar2"
+}
