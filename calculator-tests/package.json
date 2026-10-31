@@ -1,0 +1,11 @@
+{
+  "name": "lessons-17-calculator-tests",
+  "private": true,
+  "scripts": {
+    "appium": "appium --address 127.0.0.1 --port 4723",
+    "driver:install": "appium driver install uiautomator2@4.2.9"
+  },
+  "devDependencies": {
+    "appium": "2.19.0"
+  }
+}
