@@ -19,13 +19,14 @@ public class Employee {
         return age;
     }
 
-    public void printInfo() {
-        System.out.println("ФИО: " + fullName);
-        System.out.println("Должность: " + position);
-        System.out.println("Email: " + email);
-        System.out.println("Телефон: " + phone);
-        System.out.println("Зарплата: " + salary);
-        System.out.println("Возраст: " + age);
-        System.out.println("----------------------------");
+    @Override
+    public String toString() {
+        return "ФИО: " + fullName + "\n" +
+               "Должность: " + position + "\n" +
+               "Email: " + email + "\n" +
+               "Телефон: " + phone + "\n" +
+               "Зарплата: " + salary + "\n" +
+               "Возраст: " + age + "\n" +
+               "----------------------------";
     }
 }

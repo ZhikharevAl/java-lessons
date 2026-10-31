@@ -20,12 +20,13 @@ public class Park {
             this.price = price;
         }
 
-        public void printInfo() {
-            System.out.println("Парк: " + name);
-            System.out.println("Аттракцион: " + attractionName);
-            System.out.println("Время работы: " + workingHours);
-            System.out.println("Стоимость: " + price + " руб.");
-            System.out.println("----------------------------");
+        @Override
+        public String toString() {
+            return "Парк: " + name + "\n" +
+                   "Аттракцион: " + attractionName + "\n" +
+                   "Время работы: " + workingHours + "\n" +
+                   "Стоимость: " + price + " руб." + "\n" +
+                   "----------------------------";
         }
     }
 }

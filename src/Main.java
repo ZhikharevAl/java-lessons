@@ -12,7 +12,7 @@ public class Main {
         System.out.println("----------------------------");
         for (Employee emp : employees) {
             if (emp.getAge() > 40) {
-                emp.printInfo();
+                System.out.println(emp);
             }
         }
 
@@ -23,8 +23,8 @@ public class Main {
 
         System.out.println("Аттракционы парка:");
         System.out.println("----------------------------");
-        rollerCoaster.printInfo();
-        ferrisWheel.printInfo();
-        carousel.printInfo();
+        System.out.println(rollerCoaster);
+        System.out.println(ferrisWheel);
+        System.out.println(carousel);
     }
 }
