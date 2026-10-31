@@ -1,6 +1,6 @@
 public class AppData {
-    private String[] header;
-    private int[][] data;
+    private final String[] header;
+    private final int[][] data;
 
     public AppData(String[] header, int[][] data) {
         this.header = header;
