@@ -1,4 +1,8 @@
+import java.util.logging.Logger;
+
 public class Main {
+    private static final Logger logger = Logger.getLogger(Main.class.getName());
+
     public static void main(String[] args) {
         Employee[] employees = new Employee[5];
 
@@ -8,11 +12,10 @@ public class Main {
         employees[3] = new Employee("Козлов Дмитрий Олегович", "Директор", "kozlov@mail.ru", "89264445566", 90000, 48);
         employees[4] = new Employee("Смирнова Елена Вячеславовна", "Аналитик", "smirnova@mail.ru", "89037778899", 60000, 29);
 
-        System.out.println("Сотрудники старше 40 лет:");
-        System.out.println("----------------------------");
+        logger.info("Сотрудники старше 40 лет:");
         for (Employee emp : employees) {
             if (emp.getAge() > 40) {
-                System.out.println(emp);
+                logger.info(emp.toString());
             }
         }
 
@@ -21,10 +24,9 @@ public class Main {
         Park.Attraction ferrisWheel = park.new Attraction("Колесо обозрения", "09:00 - 23:00", 200);
         Park.Attraction carousel = park.new Attraction("Карусель", "10:00 - 20:00", 150);
 
-        System.out.println("Аттракционы парка:");
-        System.out.println("----------------------------");
-        System.out.println(rollerCoaster);
-        System.out.println(ferrisWheel);
-        System.out.println(carousel);
+        logger.info("Аттракционы парка:");
+        logger.info(rollerCoaster.toString());
+        logger.info(ferrisWheel.toString());
+        logger.info(carousel.toString());
     }
 }
